@@ -42,7 +42,7 @@ const About = () => {
                 </h1>
 
                 <p>
-                    A simple user management application built with React,
+                    A modern user management dashboard built with React,
                     featuring CRUD operations, validation, search,
                     pagination and authentication.
                 </p>
