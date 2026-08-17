@@ -1,0 +1,80 @@
+.user-card{
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.user-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,.15);
+}
+
+.user-name{
+    font-size: 22px;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+.user-info{
+    color: #64748b;
+    font-size: 15px;
+}
+
+.user-buttons{
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.btn{
+    flex:1;
+    border:none;
+    border-radius:10px;
+    padding:10px;
+    cursor:pointer;
+    color:white;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-update{
+    background:#0ea5e9;
+}
+
+.btn-update:hover{
+    background:#0284c7;
+}
+
+.btn-delete{
+    background:#ef4444;
+}
+
+.btn-delete:hover{
+    background:#dc2626;
+}
+
+.button-spinner {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border: 2px solid rgba(255, 255, 255, 0.45);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: button-spin 0.7s linear infinite;
+}
+
+@keyframes button-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.user-card button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
