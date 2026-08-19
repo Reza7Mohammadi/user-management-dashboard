@@ -24,6 +24,10 @@ const features = [
     {
         title: "Custom Hook",
         description: "API operations handled with a reusable custom hook"
+    },
+    {
+        title: "Responsive Design",
+        description: "Mobile-friendly interface with responsive layouts and adaptive components"
     }
 ];
 
