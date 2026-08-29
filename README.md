@@ -1,10 +1,34 @@
 # User Management Dashboard
 
-A modern and responsive user management dashboard built with React and Vite.
+A modern and responsive user management dashboard built with **React 19** and **Vite**.
 
 The application provides a clean interface for managing users with CRUD operations, search, pagination, form validation, authentication, protected routes, error handling, and reusable API logic.
 
-## Features
+## 🚀 Live Demo
+
+**[View Live Demo](https://reza7mohammadi.github.io/user-management-dashboard/)**
+
+## 📸 Screenshots
+
+### Login
+
+![Login Page](./public/screenshots/login.png)
+
+### Users Dashboard
+
+![Users Dashboard](./public/screenshots/dashboard.png)
+
+### User Form
+
+![User Form](./public/screenshots/user-form.png)
+
+### Responsive Design
+
+![Responsive Design](./public/screenshots/mobile.png)
+
+---
+
+## ✨ Features
 
 * **CRUD Operations** — Create, update, and delete users
 * **Search** — Find users by name or email
@@ -14,19 +38,24 @@ The application provides a clean interface for managing users with CRUD operatio
 * **Custom Hook** — Reusable hook for user and API operations
 * **Responsive Design** — Mobile-friendly layouts and adaptive components
 * **Error Handling** — Handles API and application errors
+* **Reusable Components** — Modular and maintainable component structure
 
-## Tech Stack
+---
 
-* React 19
-* Vite
-* React Router DOM
-* Axios
-* React Hook Form
-* Yup
-* Hook Form Resolvers
-* ESLint
+## 🛠️ Tech Stack
 
-## Authentication
+* **React 19**
+* **Vite**
+* **React Router DOM**
+* **Axios**
+* **React Hook Form**
+* **Yup**
+* **Hook Form Resolvers**
+* **ESLint**
+
+---
+
+## 🔐 Authentication
 
 The application includes an authentication flow with:
 
@@ -37,13 +66,15 @@ The application includes an authentication flow with:
 
 Protected pages are only accessible after successful authentication.
 
-## API Integration
+---
+
+## 🌐 API Integration
 
 API requests are handled using **Axios** and organized through a reusable custom hook.
 
 The user-related API logic is separated from the UI components to keep the application structure clean and maintainable.
 
-The main API functionality includes:
+Main API functionality includes:
 
 * Fetching users
 * Creating users
@@ -51,26 +82,32 @@ The main API functionality includes:
 * Deleting users
 * Handling API errors
 
-## Search & Pagination
+---
 
-The users page provides search functionality for finding users by:
+## 🔎 Search & Pagination
+
+The Users page provides search functionality for finding users by:
 
 * Name
 * Email
 
 Pagination allows users to navigate through multiple pages of user data instead of displaying all records at once.
 
-## Responsive Design
+---
+
+## 📱 Responsive Design
 
 The dashboard is designed to work across different screen sizes.
 
-The layout and components adapt to smaller screens to provide a better experience on:
+The layout and components adapt to provide a better experience on:
 
 * Desktop
 * Tablet
 * Mobile
 
-## Project Structure
+---
+
+## 📁 Project Structure
 
 ```text
 src/
@@ -95,27 +132,9 @@ src/
 └── main.jsx
 ```
 
-## Screenshots
+---
 
-Screenshots of the main application pages can be added here.
-
-### Login
-
-*Add login page screenshot here.*
-
-### Users Dashboard
-
-*Add users dashboard screenshot here.*
-
-### User Form
-
-*Add create/edit user form screenshot here.*
-
-### About
-
-*Add About page screenshot here.*
-
-## Installation
+## ⚙️ Installation
 
 Clone the repository:
 
@@ -135,7 +154,9 @@ Install dependencies:
 npm install
 ```
 
-## Development
+---
+
+## 💻 Development
 
 Start the development server:
 
@@ -145,7 +166,9 @@ npm run dev
 
 Then open the local URL provided by Vite in your browser.
 
-## Production Build
+---
+
+## 📦 Production Build
 
 Create a production build:
 
@@ -159,7 +182,9 @@ Preview the production build:
 npm run preview
 ```
 
-## Available Scripts
+---
+
+## 📜 Available Scripts
 
 ```bash
 npm run dev
@@ -168,18 +193,38 @@ npm run lint
 npm run preview
 ```
 
-## Version
+---
+
+## 🚀 Deployment
+
+The project is automatically deployed to **GitHub Pages** using **GitHub Actions**.
+
+Every push to the `main` branch triggers the deployment workflow.
+
+**Live Website:**
+
+https://reza7mohammadi.github.io/user-management-dashboard/
+
+---
+
+## 🏷️ Version
 
 Current stable release:
 
 **v1.0.0**
 
-## Repository
+---
 
-[GitHub Repository](https://github.com/Reza7Mohammadi/user-management-dashboard?utm_source=chatgpt.com)
+## 🔗 Repository
 
-## Author
+[GitHub Repository](https://github.com/Reza7Mohammadi/user-management-dashboard)
+
+---
+
+## 👨‍💻 Author
 
 **Reza Mohammadi**
 
-[GitHub Profile](https://github.com/Reza7Mohammadi?utm_source=chatgpt.com)
+[GitHub Profile](https://github.com/Reza7Mohammadi)
+
+
